@@ -1,0 +1,4 @@
+export enum UserUploadFileFieldEnum {
+  FILE_PROFILE_PHOTO = 'FILE_PROFILE_PHOTO',
+  FILE_PROFILE_BANNER = 'FILE_PROFILE_BANNER',
+}

@@ -1,0 +1,83 @@
+# compiled output
+dist
+/out-tsc
+/node_modules
+/build
+npm-debug.log
+yarn-error.log
+
+# Logs
+**/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Miscellaneous
+**/.angular/cache/
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+__screenshots__/
+
+# dotenv environment variable files
+**/env/test.env
+**/env/local.env
+**/env/debug.env
+**/env/test.env.ts
+**/env/local.env.ts
+**/env/debug.env.ts
+!docs/for_setup/**/*.env
+
+# temp directory
+.temp
+.tmp
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Ignore everything inside /assets/upload directory, but do not ignore the /assets/upload directory itself
+/assets/upload/**/* 
+!/assets/upload/.gitkeep 
+
+# Ignore everything inside /assets/web-crawler directory, but do not ignore the /assets/web-crawler directory itself
+/assets/web-crawler/**/* 
+!/assets/web-crawler/.gitkeep 
+
+
+# Ignore all contents inside crawlee-storage, except for the .gitkeep file
+/crawlee-storage/**/*
+!/crawlee-storage/.gitkeep
+
+# ignore .build folder
+/.build
+

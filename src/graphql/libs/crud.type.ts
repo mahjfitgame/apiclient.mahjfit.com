@@ -1,0 +1,21 @@
+export const EntitySuffix = `Entity`;
+
+export const CreateArtefact = 'Create';
+export const UpsertArtefact = 'Upsert';
+export const UpdateArtefact = 'Update';
+export const MarkAsMainArtefact = 'MarkAsMain';
+export const SoftRemoveArtefact = 'SoftRemove';
+export const RemoveArtefact = 'Remove';
+export const SoftDeleteArtefact = 'SoftDelete';
+export const DeleteArtefact = 'Delete';
+export const RecoverArtefact = 'Recover';
+export const RestoreArtefact = 'Restore';
+export const FindArtefact = 'Find';
+export const FindOneByIdArtefact = 'FindOneById';
+export const UploadArtefact = 'Upload';
+export const UploadDeleteArtefact = 'UploadDelete';
+export const FileRelocationArtefact = 'FileRelocation';
+export const RecordPositionArtefact = 'RecordPosition';
+export const AutoSuggestionArtefact = 'AutoSuggestion';
+export const ImportArtefact = 'Import';
+export const ExportArtefact = 'Export';

@@ -1,0 +1,9 @@
+dist/**/*.map
+*.map
+src
+test
+tests
+coverage
+*.tsbuildinfo
+.env
+.env.*
